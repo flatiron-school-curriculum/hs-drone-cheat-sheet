@@ -7,27 +7,27 @@
 
 `client.land()`
 
-`client.up(speed)` / `client.down(speed)`
+`client.up(speed)` / `client.down(speed)` <br>
 Makes the drone gain or reduce altitude. Speed can be a value from 0 to 1.
 
-`client.clockwise(speed)` / `client.counterClockwise(speed)`
+`client.clockwise(speed)` / `client.counterClockwise(speed)` <br>
 Causes the drone to spin. Speed can be a value from 0 to 1.
 
-`client.front(speed)` / `client.back(speed)`
+`client.front(speed)` / `client.back(speed)` <br>
 Controls the pitch, which is the vertical direction the drone's nose is pointing. Speed can be a value from 0 to 1.
 
-`client.left(speed)` / `client.right(speed)`
+`client.left(speed)` / `client.right(speed)` <br>
 Controls the roll, which makes the drone tilt left or right. Speed is any value from 0 to 1.
 
-`client.stop()`
+`client.stop()` <br>
 Sets all drone movement commands to 0, making it effectively hover in place.
 
 ### GETTING FANCY
 
-`client.animate(animation, duration)`
+`client.animate(animation, duration)` <br>
 Example: client.animate('flipLeft', 1000);
 
-Performs a pre-programmed flight sequence for a given duration (in ms). Try these in place of `flipLeft` above:
+Performs a pre-programmed flight sequence for a given duration (in ms). Try these in place of `'flipLeft'` above:
 ```
 ['phiM30Deg', 'phi30Deg', 'thetaM30Deg', 'theta30Deg', 'theta20degYaw200deg',
 'theta20degYawM200deg', 'turnaround', 'turnaroundGodown', 'yawShake',
