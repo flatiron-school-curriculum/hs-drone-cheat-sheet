@@ -25,9 +25,11 @@ Sets all drone movement commands to 0, making it effectively hover in place.
 ### GETTING FANCY
 
 `client.animate(animation, duration)` <br>
-Example: client.animate('flipLeft', 1000);
-
-Performs a pre-programmed flight sequence for a given duration (in ms). Try these in place of `'flipLeft'` above:
+Example: 
+```javascript
+client.animate('flipLeft', 1000);
+```
+This performs a pre-programmed flight sequence for a given duration (in ms). Try these in place of `'flipLeft'` above:
 ```
 ['phiM30Deg', 'phi30Deg', 'thetaM30Deg', 'theta30Deg', 'theta20degYaw200deg',
 'theta20degYawM200deg', 'turnaround', 'turnaroundGodown', 'yawShake',
