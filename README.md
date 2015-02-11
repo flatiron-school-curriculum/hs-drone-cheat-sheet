@@ -3,9 +3,13 @@
 
 ### BASIC MOVES
 
-`client.takeoff()`
+```javascript
+client.takeoff()
+```
 
-`client.land()`
+```javascript
+client.land()
+```
 
 `client.up(speed)` / `client.down(speed)` <br>
 Makes the drone gain or reduce altitude. Speed can be a value from 0 to 1.
@@ -19,12 +23,16 @@ Controls the pitch, which is the vertical direction the drone's nose is pointing
 `client.left(speed)` / `client.right(speed)` <br>
 Controls the roll, which makes the drone tilt left or right. Speed is any value from 0 to 1.
 
-`client.stop()` <br>
+```javascript
+client.stop()
+``` <br>
 Sets all drone movement commands to 0, making it effectively hover in place.
 
 ### GETTING FANCY
 
-`client.animate(animation, duration)` <br>
+```javascript
+client.animate(animation, duration)
+``` <br>
 Example: 
 ```javascript
 client.animate('flipLeft', 1000);
