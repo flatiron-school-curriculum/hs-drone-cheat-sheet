@@ -1,5 +1,5 @@
 ## NODE-AR-DRONE
-More documentation here: [github.com/felixge/node-ar-drone](github.com/felixge/node-ar-drone)
+More documentation here: [http://github.com/felixge/node-ar-drone](github.com/felixge/node-ar-drone)
 
 ### BASIC MOVES
 
