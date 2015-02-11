@@ -25,14 +25,14 @@ Controls the roll, which makes the drone tilt left or right. Speed is any value 
 
 ```javascript
 client.stop()
-``` <br>
+```
 Sets all drone movement commands to 0, making it effectively hover in place.
 
 ### GETTING FANCY
 
 ```javascript
 client.animate(animation, duration)
-``` <br>
+```
 Example: 
 ```javascript
 client.animate('flipLeft', 1000);
