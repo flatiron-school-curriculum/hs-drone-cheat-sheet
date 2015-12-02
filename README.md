@@ -47,3 +47,5 @@ This performs a pre-programmed flight sequence for a given duration (in ms). Try
 Please note that the drone will need a good amount of altitude and headroom to perform a flip. So be careful!
 
 For more information about Flatiron School, [visit our site](precollege.flatironschool.com)!
+
+<a href='https://learn.co/lessons/hs-drone-cheat-sheet' data-visibility='hidden'>View this lesson on Learn.co</a>
